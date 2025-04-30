@@ -1,4 +1,5 @@
 const { crawl } = require('./crawl.js');
+const { printReport } = require('./report.js');
 
 async function main() {
   if (process.argv.length < 3) {
@@ -17,7 +18,7 @@ async function main() {
   if (pages.length === 0) {
     console.log('No pages found.');
   } else {
-    console.log('Pages found:', pages);
+    printReport(pages);
   }
 }
 
