@@ -1,0 +1,25 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IrishBanga/webcrawler#readme",
+  "bugs": {
+    "url": "https://github.com/IrishBanga/webcrawler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrishBanga/webcrawler.git"
+  },
+  "license": "ISC",
+  "author": "Irish Banga",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3"
+  }
+}
